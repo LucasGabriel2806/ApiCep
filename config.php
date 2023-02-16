@@ -1,0 +1,3 @@
+<?php
+
+//dados de configuração
