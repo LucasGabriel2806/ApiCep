@@ -1,0 +1,15 @@
+cep.metoda.com.br/Banco/Dados.zip
+cep.metoda.com.br/Banco/Modelagem.mwb
+
+
+http://localhost:8000/endereco/by-cep?cep=17210580
+
+http://localhost:8000/logradouro/by-bairro?id_cidade=
+4874&bairro=Jardim América
+
+http://localhost:8000/cep/by-logradouro/?logradouro=
+Rua Raphael Almeida Leite
+
+http://localhost:8000/cidade/by-uf?uf=SP
+
+http://localhost:8000/bairro/by-cidade?id=4874
