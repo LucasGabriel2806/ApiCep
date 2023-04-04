@@ -11,7 +11,8 @@ class EnderecoController extends Controller
     {
         try
         {
-            $logradouro = $_GET['logradouro'];
+            $logradouro = parent::getStringFromUrl(isset($_GET['logradouro']) 
+            ? $_GET['logradouro'] : null, "logradouro" );
 
             $model = new EnderecoModel();
             $model->getCepByLogradouro($logradouro);

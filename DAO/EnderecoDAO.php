@@ -28,7 +28,7 @@ class EnderecoDAO extends DAO
     
     }
 
-    public function selectLogradouroByBairroAndCidade(int $bairro, int $id_cidade)
+    public function selectLogradouroByBairroAndCidade(string $bairro, int $id_cidade)
     {
         $sql = "SELECT * FROM logradouro WHERE 
         descricao_bairro = ? AND id_cidade = ? ";

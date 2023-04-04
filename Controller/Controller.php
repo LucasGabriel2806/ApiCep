@@ -24,7 +24,7 @@ abstract class Controller
             'file' => $e->getFile(),
             'line' => $e->getLine(),
             'traceAsString' => $e->getTraceAsString(),
-            'previous' => $e->getPrevious()
+            'previous' => $e->getPrevious() 
 
         ];
 
@@ -48,7 +48,7 @@ abstract class Controller
 
     protected static function isPost()
     {
-        if($_SERVER['REQUEST_METHOD'] !== 'GET')
+        if($_SERVER['REQUEST_METHOD'] !== 'POST')
             throw new Exception("O método de requisição deve ser POST");
     }
 
